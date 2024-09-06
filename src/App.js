@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes } from "react-router-dom";
+import "./App.css";
+import Header from "./component/Header";
 
 function App() {
   return (
-   <>
-    <h1>Emoji task</h1>
-   </>
+    <>
+      <BrowserRouter>
+        <Header />
+        <Routes></Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
