@@ -9,14 +9,19 @@ body {
   margin-top: 70px;
 }
 
-/* Loader component */
+/* Header component */
+.header-container h1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 30px;
+}
 
+/* Loader component */
 .spinner-grow{
   font-size: 500px;
 }
 
 /* From component */
-
 .from-container {
   display: flex;
   justify-content: center;
@@ -37,5 +42,12 @@ body {
   border-radius: 4px;
   text-align: center;
   cursor: pointer;
+}
+
+/* Emoji component */
+.emoji-container{
+  width: 50%;
+  margin: auto;
+  height: 700px;
 }
 

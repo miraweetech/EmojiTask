@@ -1,15 +1,15 @@
 import React from "react";
-import From from "./From";
 import Emojis from "./Emojis";
 
 const Header = () => {
-    return(
-        <>
+  return (
+    <>
+      <div className="header-container">
         <h1>Emoji Search</h1>
-        <From/>
-       <Emojis/>
-        </>
-    )
-}
+        <Emojis />
+      </div>
+    </>
+  );
+};
 
-export default Header
+export default Header;
