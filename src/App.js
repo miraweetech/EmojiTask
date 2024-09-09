@@ -1,14 +1,14 @@
-import { BrowserRouter, Routes } from "react-router-dom";
+import { Provider } from "react-redux";
 import "./App.css";
 import Header from "./component/Header";
+import { Store } from "./redux/Store";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Provider store={Store}>
         <Header />
-        <Routes></Routes>
-      </BrowserRouter>
+      </Provider>
     </>
   );
 }

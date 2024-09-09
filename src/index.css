@@ -21,29 +21,6 @@ body {
   font-size: 500px;
 }
 
-/* From component */
-.from-container {
-  display: flex;
-  justify-content: center;
-  gap: 0.7em;
-  margin-top: 20px;
-}
-.from-container input{
-  width: 24%;
-  padding: 7px;
-  background-color: #ececf1;
-  border: 1px solid #acacbe;
-  border-radius: 4px;
-}
-.from-container button{
-  padding: 7px 15px;
-  background-color: #ececf1;
-  border: 1px solid #acacbe;
-  border-radius: 4px;
-  text-align: center;
-  cursor: pointer;
-}
-
 /* Emoji component */
 .emoji-container{
   width: 50%;
@@ -51,3 +28,11 @@ body {
   height: 700px;
 }
 
+.selectedEmoji{
+  color: "white";
+  font-size: 50px;
+  width: 29%;
+  margin: 20px auto;
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 36 40 / var(--tw-bg-opacity));
+}

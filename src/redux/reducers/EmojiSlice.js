@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  selectedEmoji: null
+  selectedEmoji: ''
 }
 
 const EmojiSlice = createSlice({
@@ -17,3 +17,4 @@ const EmojiSlice = createSlice({
 export const {setSelectedEmoji} = EmojiSlice.actions
 
 export default EmojiSlice.reducer
+

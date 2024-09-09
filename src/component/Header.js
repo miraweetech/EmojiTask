@@ -1,12 +1,12 @@
 import React from "react";
-import Emojis from "./Emojis";
+import Container from "./Container";
 
 const Header = () => {
   return (
     <>
       <div className="header-container">
         <h1>Emoji Search</h1>
-        <Emojis />
+        <Container />
       </div>
     </>
   );
